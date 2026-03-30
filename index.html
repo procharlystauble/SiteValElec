@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val Elec | Artisan Électricien à Rennes - Mise aux normes & Dépannage</title>
+    <meta name="description" content="Artisan électricien de confiance à Rennes (35000). Val Elec intervient pour la mise aux normes, dépannage rapide, installation de tableaux électriques. Devis clairs et gratuits.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#1e3a8a', // Blue 900
+                        secondary: '#3b82f6', // Blue 500
+                        accent: '#f59e0b', // Amber 500
+                        dark: '#0f172a', // Slate 900
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-700 bg-slate-50 antialiased selection:bg-secondary selection:text-white">
+
+    <!-- Header Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white shadow-md">
+                        <i class="fa-solid fa-bolt text-xl"></i>
+                    </div>
+                    <span class="font-heading font-bold text-2xl tracking-tight text-dark">Val Elec</span>
+                </div>
+                
+                <!-- Desktop Nav & CTA -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <nav class="flex space-x-6 font-medium text-slate-600">
+                        <a href="#services" class="hover:text-secondary transition-colors">Nos Services</a>
+                        <a href="#pourquoi-nous" class="hover:text-secondary transition-colors">Notre Expertise</a>
+                        <a href="#avis" class="hover:text-secondary transition-colors">Avis Clients</a>
+                    </nav>
+                    <a href="tel:+33603680655" class="inline-flex items-center gap-2 bg-gradient-to-r from-accent to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200">
+                        <i class="fa-solid fa-phone"></i>
+                        06 03 68 06 55
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <a href="tel:+33603680655" class="bg-accent text-white p-2.5 rounded-full shadow-md mr-4">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-dark text-white pt-24 pb-32 lg:pt-32 lg:pb-40 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://loremflickr.com/1920/1080/electrician?random=1" alt="Intervention électrique à Rennes" class="w-full h-full object-cover object-center" />
+            <div class="absolute inset-0 bg-slate-900/80 bg-gradient-to-r from-slate-900/95 to-slate-900/70"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
+            <div class="inline-block px-4 py-1.5 rounded-full bg-secondary/20 border border-secondary/30 text-secondary font-medium text-sm mb-6 backdrop-blur-sm">
+                <i class="fa-solid fa-star text-accent mr-1"></i> Noté 5/5 sur Google par nos clients à Rennes
+            </div>
+            
+            <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight max-w-4xl">
+                Votre <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-yellow-400">Électricien de Confiance</span> à Rennes et alentours
+            </h1>
+            
+            <!-- PAS Copywriting: Problem & Agitation to Solution -->
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl font-light leading-relaxed">
+                Une installation vétuste qui disjoncte sans cesse ? Des travaux bricolés par les anciens propriétaires ? <br class="hidden md:block"/>
+                <strong class="text-white font-semibold">Ne prenez aucun risque avec votre sécurité.</strong><br/>
+                Valentin Le Vot vous garantit une mise aux normes rigoureuse, un dépannage rapide et des finitions méticuleuses.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                <a href="tel:+33603680655" class="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-gradient-to-r from-accent to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-2xl hover:shadow-accent/20 transform hover:-translate-y-1 transition-all duration-300">
+                    <i class="fa-solid fa-bolt"></i> Intervention d'urgence
+                </a>
+                <a href="#services" class="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-full font-semibold text-lg backdrop-blur-sm transition-all duration-300">
+                    Découvrir nos services
+                </a>
+            </div>
+            
+            <div class="mt-12 flex items-center justify-center gap-8 text-slate-400 text-sm font-medium">
+                <span class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-secondary"></i> Devis clair & détaillé</span>
+                <span class="flex items-center gap-2 hidden sm:flex"><i class="fa-solid fa-check-circle text-secondary"></i> Intervention rapide</span>
+                <span class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-secondary"></i> Travail méticuleux</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nos Services Section -->
+    <section id="services" class="py-24 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-primary font-semibold tracking-wider uppercase text-sm mb-2">Nos Domaines d'Intervention</h2>
+                <h3 class="font-heading text-3xl md:text-4xl font-bold text-dark mb-4">L'Expertise Val Elec pour votre habitat</h3>
+                <p class="text-slate-600 text-lg">Du simple dépannage à la réhabilitation complète de votre tableau électrique, nous apportons des solutions durables et sécurisées.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg shadow-slate-200/50 hover:shadow-2xl hover:shadow-slate-200 border border-slate-100 transform hover:-translate-y-1.5 transition-all duration-300 group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://loremflickr.com/800/600/electrician?random=2" alt="Mise aux normes tableau électrique" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm w-12 h-12 rounded-full flex items-center justify-center text-secondary shadow-md">
+                            <i class="fa-solid fa-shield-halved text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h4 class="font-heading text-xl font-bold text-dark mb-3">Mise aux normes & Sécurité</h4>
+                        <p class="text-slate-600 mb-6 leading-relaxed">Remplacement de tableaux électriques anciens (années 80), création de prises de terre et installation de nouveaux circuits spécialisés. Ne laissez pas une électricité "bricolée" menacer votre sécurité.</p>
+                        <a href="tel:+33603680655" class="text-secondary font-semibold hover:text-primary flex items-center gap-2 transition-colors">
+                            Demander un diagnostic <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg shadow-slate-200/50 hover:shadow-2xl hover:shadow-slate-200 border border-slate-100 transform hover:-translate-y-1.5 transition-all duration-300 group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://loremflickr.com/800/600/electrician?random=3" alt="Dépannage électrique rapide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm w-12 h-12 rounded-full flex items-center justify-center text-accent shadow-md">
+                            <i class="fa-solid fa-plug-circle-exclamation text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h4 class="font-heading text-xl font-bold text-dark mb-3">Dépannage & Réparation</h4>
+                        <p class="text-slate-600 mb-6 leading-relaxed">Une panne soudaine ? Un défaut électrique tenace que personne ne trouve ? Grâce à notre persévérance et notre expertise, nous identifions et réparons la source du problème rapidement.</p>
+                        <a href="tel:+33603680655" class="text-accent font-semibold hover:text-yellow-600 flex items-center gap-2 transition-colors">
+                            Appeler pour un dépannage <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg shadow-slate-200/50 hover:shadow-2xl hover:shadow-slate-200 border border-slate-100 transform hover:-translate-y-1.5 transition-all duration-300 group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://loremflickr.com/800/600/electrician?random=4" alt="Éclairage et courant faible" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm w-12 h-12 rounded-full flex items-center justify-center text-primary shadow-md">
+                            <i class="fa-solid fa-lightbulb text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h4 class="font-heading text-xl font-bold text-dark mb-3">Éclairage & Courant faible</h4>
+                        <p class="text-slate-600 mb-6 leading-relaxed">Intégration de spots dans vos plafonds pour sublimer vos pièces. Nous intervenons également avec succès sur vos problèmes complexes de fibre optique et d'antenne télévision.</p>
+                        <a href="tel:+33603680655" class="text-primary font-semibold hover:text-secondary flex items-center gap-2 transition-colors">
+                            Parler de votre projet <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pourquoi nous choisir -->
+    <section id="pourquoi-nous" class="py-24 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-1/2">
+                    <h2 class="text-secondary font-semibold tracking-wider uppercase text-sm mb-2">La différence Val Elec</h2>
+                    <h3 class="font-heading text-3xl md:text-4xl font-bold mb-6">Pourquoi nos clients à Rennes nous recommandent à 100% ?</h3>
+                    <p class="text-slate-300 text-lg mb-8 leading-relaxed">
+                        Trouver un artisan fiable peut être un parcours du combattant. Chez Val Elec, nous avons bâti notre réputation sur l'honnêteté, la rigueur et le respect de nos engagements. Fini les mauvaises surprises sur la facture ou les retards injustifiés.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-file-invoice text-accent text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-xl mb-1">Devis clairs et respectés</h4>
+                                <p class="text-slate-300">Aucune ligne cachée. Nos devis sont détaillés, expliqués avec pédagogie, et le prix annoncé est le prix payé.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-user-tie text-accent text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-xl mb-1">Conseils et Pédagogie</h4>
+                                <p class="text-slate-300">Au-delà de l'intervention, nous vous alertons sur les défauts non détectés par les diagnostics standards pour assurer votre totale sécurité.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-screwdriver-wrench text-accent text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-xl mb-1">Travail méticuleux</h4>
+                                <p class="text-slate-300">Étiquetage précis de votre tableau, chantiers propres et finitions soignées. Nous travaillons chez vous comme si c'était chez nous.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 w-full">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
+                        <img src="https://loremflickr.com/800/800/electrician?random=5" alt="Artisan électricien au travail" class="w-full h-auto object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent flex flex-col justify-end p-8">
+                            <div class="flex items-center gap-2 mb-2">
+                                <i class="fa-solid fa-star text-accent"></i>
+                                <i class="fa-solid fa-star text-accent"></i>
+                                <i class="fa-solid fa-star text-accent"></i>
+                                <i class="fa-solid fa-star text-accent"></i>
+                                <i class="fa-solid fa-star text-accent"></i>
+                            </div>
+                            <p class="text-white font-medium italic">"Valentin est un professionnel très compétent, efficace, méticuleux, de bon conseil et très sympathique !"</p>
+                            <p class="text-slate-300 text-sm mt-2">- Jacques C., Client Val Elec</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avis Clients Section -->
+    <section id="avis" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <div class="flex justify-center items-center gap-2 mb-4">
+                    <span class="font-heading font-bold text-5xl text-dark">5.0</span>
+                    <div class="flex flex-col text-left">
+                        <div class="flex text-accent text-lg">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="text-slate-500 text-sm font-medium">Basé sur 40 avis Google</span>
+                    </div>
+                </div>
+                <h3 class="font-heading text-3xl md:text-4xl font-bold text-dark mb-4">Ils nous ont fait confiance</h3>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">Lisez les retours d'expérience authentiques de nos clients à Rennes concernant nos interventions électriques.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Avis 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow relative">
+                    <i class="fa-brands fa-google text-slate-300 text-4xl absolute top-6 right-6 opacity-30"></i>
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://lh3.googleusercontent.com/a-/ALV-UjXf854BUC4LpZdIBQlwV6kEy1trVsFxodgV2vCxo9nLo-xDh4K_zA=s128-c0x00000000-cc-rp-mo-ba2" alt="Mélanie Münch" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <h4 class="font-bold text-dark">Mélanie Münch</h4>
+                            <div class="flex text-accent text-xs mt-1">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">"Nous avons fait appel a ce professionnel pour divers travaux de mise aux normes de notre habitation (prises de terre, tableau électrique...). Il a ete de tres bon conseil pour nous indiquer des défauts non détectés par le diagnostic. Mr Le Vot a ete d'une efficacité remarquable. Les devis sont clairs, détaillés et respectés."</p>
+                </div>
+
+                <!-- Avis 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow relative">
+                    <i class="fa-brands fa-google text-slate-300 text-4xl absolute top-6 right-6 opacity-30"></i>
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://lh3.googleusercontent.com/a/ACg8ocJ39PmErU0lVO_LU5t9L4cTNkfsvI610ZNCv2BtWTTWNJ2QKA=s128-c0x00000000-cc-rp-mo" alt="Jacques Chevalier" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <h4 class="font-bold text-dark">Jacques Chevalier</h4>
+                            <div class="flex text-accent text-xs mt-1">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">"Nous avons fait appel à Monsieur Le Vot pour faire des réparations dans notre installation électrique et intégrer des spots. Valentin est un professionnel très compétent, efficace, méticuleux, de bon conseil... Enfin, il a montré beaucoup de persévérance pour réparer un défaut électrique ancien et tenace."</p>
+                </div>
+
+                <!-- Avis 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow relative">
+                    <i class="fa-brands fa-google text-slate-300 text-4xl absolute top-6 right-6 opacity-30"></i>
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://lh3.googleusercontent.com/a-/ALV-UjVrcG8Jrd9ynWnWk_x0R4lc7ywNI79Mga7-p-F3Zi1AKYlWDS9P=s128-c0x00000000-cc-rp-mo-ba2" alt="Domi Gouevy" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <h4 class="font-bold text-dark">Domi Gouevy</h4>
+                            <div class="flex text-accent text-xs mt-1">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">"Monsieur Valentin Le Vot est un électricien d'une compétence incroyable pour avoir réglé un problème de fibre et d'antenne télé dont personne ne trouvait la solution. Je vous recommande à 100 %. J'ai à réhabiliter tout un tableau électrique et je confirai cette tâche à Val Elec."</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://www.google.com/maps/place/?q=place_id:ChIJI2BYGVXhDkgRwfngmizM6D8" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition-colors border-b-2 border-transparent hover:border-secondary pb-1">
+                    Voir tous nos avis sur Google <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA Banner -->
+    <section class="bg-gradient-to-r from-primary to-blue-800 py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+            <div>
+                <h2 class="font-heading text-3xl font-bold text-white mb-3">Besoin d'un électricien réactif à Rennes ?</h2>
+                <p class="text-blue-100 text-lg">Contactez-nous dès maintenant pour un devis gratuit et détaillé. Réponse rapide garantie.</p>
+            </div>
+            <div class="flex-shrink-0">
+                <a href="tel:+33603680655" class="inline-flex items-center gap-3 bg-accent hover:bg-yellow-500 text-dark px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <i class="fa-solid fa-phone-volume text-xl"></i> Appeler le 06 03 68 06 55
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-slate-400 py-16 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-8">
+                
+                <!-- Col 1: Brand & About -->
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white">
+                            <i class="fa-solid fa-bolt text-xl"></i>
+                        </div>
+                        <span class="font-heading font-bold text-2xl text-white">Val Elec</span>
+                    </div>
+                    <p class="mb-6 leading-relaxed text-sm">
+                        Entreprise d'électricité générale intervenant à Rennes et ses environs. Spécialiste de la mise aux normes, dépannage, et installation de tableaux électriques. Un travail soigné pour votre sérénité.
+                    </p>
+                </div>
+
+                <!-- Col 2: Contact Info -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6 uppercase tracking-wider text-sm">Coordonnées</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1.5 text-secondary"></i>
+                            <address class="not-italic text-sm">
+                                <span class="block text-white font-medium mb-1">Val Elec</span>
+                                6 Rue Renée Prévert<br>
+                                35000 Rennes, France
+                            </address>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-secondary"></i>
+                            <a href="tel:+33603680655" class="hover:text-white transition-colors text-sm text-white font-medium">06 03 68 06 55</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Hours -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6 uppercase tracking-wider text-sm">Horaires d'ouverture</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex justify-between border-b border-white/5 pb-2"><span>Lundi - Vendredi</span> <span class="text-white">08:00 – 20:00</span></li>
+                        <li class="flex justify-between border-b border-white/5 pb-2"><span>Samedi</span> <span class="text-white">08:00 – 12:00</span></li>
+                        <li class="flex justify-between pt-1"><span>Dimanche</span> <span class="text-accent">Fermé</span></li>
+                    </ul>
+                    <div class="mt-6">
+                        <a href="https://www.google.com/maps/place/?q=place_id:ChIJI2BYGVXhDkgRwfngmizM6D8" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm bg-white/5 hover:bg-white/10 text-white px-4 py-2 rounded transition-colors border border-white/10">
+                            <i class="fa-solid fa-map-location-dot text-secondary"></i> Voir sur Google Maps
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Val Elec. Tous droits réservés.</p>
+                <p>Créé pour le référencement local à Rennes.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
